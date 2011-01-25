@@ -1,0 +1,178 @@
+#DDX-header-nav {
+background-color:#29264D;
+border-color:-moz-use-text-color -moz-use-text-color #494573;
+border-style:none none solid;
+border-width:0 0 3px;
+display:inline-block;
+font-family:arial,helvetica,sans-serif;
+font-size:100%;
+font-style:inherit;
+font-weight:inherit;
+height:140px;
+margin:0;
+min-width:800px;
+overflow:hidden;
+padding:0;
+vertical-align:baseline;
+}
+#DDX-header {
+	margin: 7px;
+	}
+#DDX-header-nav {
+ -webkit-border-radius: 7px;
+-moz-border-radius:7px 7px 7px 7px;
+background-image:url("/images/headerbginv.jpg");
+display:block;
+}
+
+#DDX-header div, #DDX-header span, #DDX-header object, #DDX-header iframe, #DDX-header h1, #DDX-header h2, #DDX-header h3, #DDX-header h4, #DDX-header h5, #DDX-header h6, #DDX-header p, #DDX-header pre, #DDX-header a, #DDX-header abbr, #DDX-header acronym, #DDX-header address, #DDX-header code, #DDX-header del, #DDX-header dfn, #DDX-header em, #DDX-header img, #DDX-header dl, #DDX-header dt, #DDX-header dd, #DDX-header ol, #DDX-header ul, #DDX-header li, #DDX-header fieldset, #DDX-header form, #DDX-header input, #DDX-header label, #DDX-header legend, #DDX-header caption, #DDX-header tbody, #DDX-header tfoot, #DDX-header thead, #DDX-header tr {
+border:0 none;
+font-family:arial,helvetica,sans-serif;
+font-size:100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+#DDX-header blockquote, #DDX-header q {
+border:0 none;
+font-family:arial,helvetica,sans-serif;
+font-size:100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0;
+padding:0;
+quotes:"" "";
+vertical-align:baseline;
+}
+#DDX-header blockquote:before, #DDX-header blockquote:after, #DDX-header q:before, #DDX-header q:after {
+content:"";
+}
+#DDX-header th, #DDX-header td, #DDX-header caption {
+border:0 none;
+font-family:arial,helvetica,sans-serif;
+font-size:100%;
+font-style:inherit;
+font-weight:normal;
+margin:0;
+padding:0;
+text-align:left;
+vertical-align:middle;
+}
+#DDX-header table {
+border:0 none;
+border-collapse:separate;
+border-spacing:0;
+font-family:arial,helvetica,sans-serif;
+font-size:100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0;
+padding:0;
+vertical-align:middle;
+}
+#DDX-header a img {
+border:medium none;
+}
+#DDX-header li {
+list-style-type:none;
+}
+#DDX-header :focus {
+outline:0 none;
+}
+#DDX-header #DDX-logo {
+background-color:#212121;
+background-image:none;
+float:left;
+margin:0;
+}
+#DDX-header #DDX-logo a {
+ -webkit-border-radius: 7px;
+-moz-border-radius:7px 7px 7px 7px;
+background-color:#212121;
+background-image:url("/images/logo-ex-ddx.png");
+background-repeat:no-repeat;
+display:block;
+height:140px;
+overflow:hidden;
+text-indent:-9999px;
+width:136px;
+}
+#DDX-header ul#DDX-account-nav, #DDX-header ul#DDX-section-nav {
+display:inline-block;
+float:right;
+list-style-type:none;
+margin-top:30px;
+overflow:hidden;
+padding:10px;
+}
+#DDX-header ul#DDX-account-nav, #DDX-header ul#DDX-section-nav {
+ -webkit-border-radius: 7px;
+-moz-border-radius:7px 7px 7px 7px;
+background-color:#231D40;
+display:block;
+}
+#DDX-header ul#DDX-account-nav li, #DDX-header ul#DDX-section-nav li {
+float:left;
+margin-left:10px;
+}
+#DDX-header ul#DDX-account-nav li:first-child, #DDX-header ul#DDX-section-nav li:first-child {
+margin-left:0;
+}
+#DDX-header ul#DDX-account-nav li, #DDX-header ul#DDX-section-nav li {
+border-left:2px solid #494573;
+font-size:16px;
+padding-left:10px;
+}
+#DDX-header ul#DDX-account-nav li:first-child, #DDX-header ul#DDX-section-nav li:first-child {
+border-left:medium none;
+padding-left:0;
+}
+#DDX-header ul#DDX-account-nav li#DDX-header-link-login, #DDX-header ul#DDX-section-nav li#DDX-header-link-login {
+border:medium none;
+margin-left:0;
+padding-left:0;
+}
+#DDX-header ul#DDX-account-nav li a, #DDX-header ul#DDX-section-nav li a {
+color:#CB0000;
+font-weight:bold;
+text-decoration:none;
+}
+#DDX-header ul#DDX-account-nav li a:hover, #DDX-header ul#DDX-section-nav li a:hover {
+color:white;
+}
+#DDX-header ul#DDX-account-nav li a.active, #DDX-header ul#DDX-section-nav li a.active {
+color:#BFF740;
+}
+#DDX-header ul#DDX-account-nav li a.active:hover, #DDX-header ul#DDX-section-nav li a.active:hover {
+color:#BFF740;
+}
+#DDX-header ul#DDX-account-nav {
+	 -webkit-border-radius: 7px;
+-moz-border-radius:7px 7px 7px 7px;
+background-color:#231D40;
+margin-left:10px;
+margin-right:25px;
+padding-left:15px;
+padding-right:15px;
+}
+#DDX-header ul#DDX-account-nav li a {
+color:#45A4FF;
+}
+#DDX-header ul#DDX-account-nav li a:hover {
+color:#74D0F4;
+}
+#DDX-header ul#DDX-account-nav li a.active {
+color:#BFF740;
+}
+#DDX-header ul#DDX-account-nav li a.active:hover {
+color:#BFF740;
+}
+
+#DDX-header-separation
+{
+	width: 7px;
+	float:left;
+	min-height:7px; 
+}
