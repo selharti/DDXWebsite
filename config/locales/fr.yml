@@ -1,0 +1,265 @@
+fr:
+  title: "Drive Destiny eXperience - Consulting / Audit / Management Projet  | Formation"
+  mytraining: "Mes formations"
+  myaccount: "Mon compte"
+  disconnecte: "Se déconnecter"
+  about: "A propos"
+  jobs: Emplois
+  blog: Blog 
+  #menu
+  services: Services  
+  contact: Contact
+  connecte: "Se connecter"
+  training: Formation
+  development: Développement
+  ourservices: "Nos services"
+  community: Communoté
+  resources: Ressources
+  #home
+  homediscovre: Découvrir
+  homelearn: Apprendre
+  homepractice: Pratiquer
+  homereturn: Rentabiliser
+  homeT1: "Drive Destiny eXperience est une société de service en technologie de l'information et gestion de projet. Nous offrons des services en formation, accompagnement agile et de dévloppement sur différentes tehnologies qui repondent le mieux à vos besoins et votre budget. Notre orientation Agile nous offre la possibilté de répondre au besoins de notre clientèle efficacement, rapidement et à moindre coût."
+  homediscoverT1: "Découvrir l'Agilité et tout ce qu'elle peut faire pour la réalisation de vos projets informatiques. En fait Elle va un peut plus loin et vous propose un changement de mentalité de votre organisation et de vos relations avec vos partenaires."
+  homediscoverT2: "Drive Destiny eXperience propose des séances gratuites d’initiation à l’Agilité. Voir le calendrier."
+  homelearnT1: "Drive Destiny eXperience vous propose des formations sur différent techniques et technologiesnologie."
+  homelearnT2: "Drive Destiny eXperience offre des formations Agiles. 
+                Scrum Master niveau 1, niveau 2 et Certification.
+                Product Owner
+                TDD
+                Gestion du changement 
+                Stratégie Agile"
+  homepracticeT1: "Il faut l'essayer pour le croire, et c'est exactement ce que nous vous proposons: des ateliers de pratique"
+  homepracticeT2: "Drive Destiny eXperience vous offre des ateliers d’immersion pour passer à la pratique et vivre une expérience réelle, réduite dans le temps, qui couvre toutes les étapes d’un projet Agile. Les participants participent à la réalisation d’un mini projet, et prennent par la pratique les différents rôles et étape de l’approche Scrum. Préalable : avoir suivie une formation Scrum."  
+  homereturnT1: "Il est temps de mettre toute cette expérsise en exploitation et commencer le rentabliser. Nous vous propose un accompagnement pour assurr la réussit de votre démarche."
+  homereturnT2: "Drive Destiny eXperience offre un service d’accompagnement pour les entreprises qui désirent virage Agile. Notre objectif principal est de vous aider à trouver et définir l’approche d’intégration Agile qui s’adapte le mieux à votre contexte et de vous aider à la mettre en œuvre. « Nous ne vous donnerons pas de poisson mais nous vous montrerons comment le pêcher !»."  
+  homeamsponsorImg: "AMSponsor-fr.png"
+  #company
+  company: Compagnie
+  companyvision: "<h2>Notre Vision :</h2>
+                  Collaborer pour tirer le meilleur de la technologie de l’information et participer à son épanouissement dans une ambiance agréable."
+  companymission: "<h2>Notre Mission :</h2>
+                  Offrir des services  en gestion de projet et en ingénierie de l'information: consultation, formation, accompagnement de développement de solution."
+  companyvalues: "<h2>Nos Valeurs :</h2>
+              • Adopter une étroite collaboration avec vous pour mieux vous servir.<br>
+              • Mettre en œuvre toutes les efforts nécessaires pour atteindre les objectifs.<BR>
+              • Partager les connaissances, qui sont d’ailleurs un patrimoine universel."
+  companyapproch: "<h2>Notre Approche :</h2>
+        • Être à votre écoute pour bien comprendre vos besoins et bien les définir.<br>
+        • Vous proposer les meilleures solutions et vous aider à faire des choix éclairés.<br>
+        • Vous assister et participer dans la mise en ouvre de votre solution.<br>
+        • Collaborer avec vous jusqu’à l’atteinte de votre satisfaction."
+  #contacte 
+  contacteus: "Contactez-nous"
+  generalinformation: "Information générale"
+  traininginformation: "Information sur les formations"
+  locations: "Nos locaux" 
+  morocco: Maroc
+  montreal: Montréal  
+  #Services
+  coachingagile: "Acompagnement Agile"
+  servicescoachingagileT1: "Vous accompagner dans vos projets Agiles."
+  trainingagile: "Formation"
+  servicestrainingagileT1: "Formation Agile, Scrum, TDD."
+  developmentagile: "Développement"
+  servicesdevelopmentagileT1: "La réalisation, phase incontournable de vos projets."
+  #Services / coaching
+  coachingagileT1: "La transition à l'Agilité est un changement que personne ne peut faire pour vous"
+  coachingagileT2: "Drive Destiny eXperience propose un accompagnement pour vous aider à prendre ce virage et faire les bons choix aux bons moments"
+  coachingagileT3: "Notre démarche est très simple:"
+  coachingagileI1: coaching-fr.png
+  #Services / development
+  #====================
+  #email: "Courriel"
+  #password: "Mot de passe"
+  email: "Courriel"
+  password: "Mot de passe"
+  password_confirmation: "Confirmation mot de passe"
+  Change_your_password: "Changer votre mot de passe"
+  Change_my_password:  "Changer mon mot de passe"
+  
+  Back: "Retourner à la liste"
+  Edit: Edditer   
+  Register: "S'inscrire"
+  Unregister: "Se désinscrire"
+  sign_in_formEvent: Inscription 
+  #"Connectez-vous puis inscrivez-vous à cet événement"
+  sign_in_fromSessions: "Vous avez déjà un compte! Connectez-vous"
+  #connecter (si vous n'avez pas encore de compte, veuillez vous enregistrer) 
+  #Menu
+  home: Accueil
+  User: Utilisateur
+  Users: Utilisateurs
+  Event: Événement
+  Events: Événements
+  News: Nouvelles
+  Message: Message
+  Messages: Messages
+  Contact_us: "Contactez nous"
+  connected_welcome: Bienvenue
+  SPONSORS: " SPONSORS" 
+  #COMMENDITAIRES 
+  
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      short: "%e %b"
+      long: "%e %B %Y"
+      long_ordinal: "%e %B %Y"
+      only_day: "%e"
+
+    day_names: [dimanche, lundi, mardi, mercredi, jeudi, vendredi, samedi]
+    abbr_day_names: [dim, lun, mar, mer, jeu, ven, sam]
+    month_names: [~, janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+    abbr_month_names: [~, jan., fév., mar., avr., mai, juin, juil., août, sept., oct., nov., déc.]
+    order: [ :day, :month, :year ]
+  
+  time:
+    formats:
+      default: "%d %B %Y %H:%M"
+      time: "%H:%M"
+      short: "%d %b %H:%M"
+      long: "%A %d %B %Y %H:%M:%S %Z"
+      long_ordinal: "%A %d %B %Y %H:%M:%S %Z"
+      only_second: "%S"
+    am: 'am'
+    pm: 'pm'
+
+  datetime:
+    distance_in_words:
+      half_a_minute: "une demi-minute"
+      less_than_x_seconds:
+        zero:  "moins d'une seconde"
+        one:   "moins de 1 seconde"
+        other: "moins de {{count}} secondes"
+      x_seconds:
+        one:   "1 seconde"
+        other: "{{count}} secondes"
+      less_than_x_minutes:
+        zero:  "moins d'une minute"
+        one:   "moins de 1 minute"
+        other: "moins de {{count}} minutes"
+      x_minutes:
+        one:   "1 minute"
+        other: "{{count}} minutes"
+      about_x_hours:
+        one:   "environ une heure"
+        other: "environ {{count}} heures"
+      x_days:
+        one:   "1 jour"
+        other: "{{count}} jours"
+      about_x_months:
+        one:   "environ un mois"
+        other: "environ {{count}} mois"
+      x_months:
+        one:   "1 mois"
+        other: "{{count}} mois"
+      about_x_years:
+        one:   "environ un an"
+        other: "environ {{count}} ans"
+      over_x_years:
+        one:   "plus d'un an"
+        other: "plus de {{count}} ans"
+    prompts:
+      year:   "Année"
+      month:  "Mois"
+      day:    "Jour"
+      hour:   "Heure"
+      minute: "Minute"
+      second: "Seconde"
+  
+  number:
+    format:
+      precision: 3
+      separator: ','
+      delimiter: ' '
+    currency:
+      format:
+        unit: '€'
+        precision: 2
+        format: '%n %u'
+    human:
+      format:
+        # These three are to override number.format and are optional
+        # separator: 
+        delimiter: "" 
+        precision: 2
+      # Rails <= v2.2.2
+      # storage_units: [octet, kb, Mb, Gb, Tb]
+      # Rails >= v2.3
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one:   "octet"
+            other: "octets"
+          kb: "ko"
+          mb: "Mo"
+          gb: "Go"
+          tb: "To"
+
+  support:
+    array:
+      sentence_connector: 'et'
+      skip_last_comma: true
+      words_connector: ", "
+      two_words_connector: " et "
+      last_word_connector: " et "
+  
+  activerecord:
+    attributes:
+      user:
+        email: "Courriel"
+        password: "Mot de passe"
+        password_confirmation: "Confirmation mot de passe"
+        firstname: Prénom
+        lastname: "Nom de famille"
+        title: Titre
+        organization: "Organisation / Compagnie" 
+        city: Ville
+        state: Province
+        country: Pays
+        note: Note
+        is_admin: Administrateur
+        
+    errors:
+      template:
+        header: 
+          one: "Impossible d'enregistrer {{model}}: 1 erreur"
+          other: "Impossible d'enregistrer {{model}}: {{count}} erreurs."
+        body: "Veuillez vérifier les champs suivants :"
+      messages:
+        inclusion: "n'est pas inclus(e) dans la liste"
+        exclusion: "n'est pas disponible"
+        invalid: "n'est pas valide"
+        confirmation: "ne concorde pas avec la confirmation"
+        accepted: "doit être accepté(e)"
+        empty: "doit être rempli(e)"
+        blank: "doit être rempli(e)"
+        too_long: "est trop long (pas plus de {{count}} caractères)"
+        too_short: "est trop court (au moins {{count}} caractères)"
+        wrong_length: "ne fait pas la bonne longueur (doit comporter {{count}} caractères)"
+        taken: "n'est pas disponible"
+        not_a_number: "n'est pas un nombre"
+        greater_than: "doit être supérieur à {{count}}"
+        greater_than_or_equal_to: "doit être supérieur ou égal à {{count}}"
+        equal_to: "doit être égal à {{count}}"
+        less_than: "doit être inférieur à {{count}}"
+        less_than_or_equal_to: "doit être inférieur ou égal à {{count}}"
+        odd: "doit être impair"
+        even: "doit être pair"
+        record_invalid: "La validation a échoué : {{errors}}"
+        #added
+      models:
+      # For example,
+        user: "Utilisateur"
+        event: Événement
+        news_item: Nouvelle
+        news: Nouvelles
+        message: message
+        
+        # will translate User model name to "Dude"
+        # Translate model attribute names. Used in Model.human_attribute_name(attribute).
+     
+

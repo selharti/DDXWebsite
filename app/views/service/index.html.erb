@@ -1,6 +1,6 @@
 <div id="wrapper">
     <div id="main">
-        <h1>Nos Services</h1>
+        <h1><%= t('ourservices') %></h1>
         <div id="featured">
             <div id="widgets">
                 <style type="text/css">                
@@ -35,16 +35,16 @@
                 </style>
                 <a id="widget-coaching" class="widget" href="/coaching">
                 	<span class="logo" style="background-image: url(/images/widgets/levelup.png)"></span>
-					<span class="title">Coaching</span>
-					<span class="content">Vous accompagner dans vos projets Agiles.</span></a>
+					<span class="title"> <%= t('coachingagile') %></span>
+					<span class="content"> <%= t('servicescoachingagileT1') %></span></a>
                 <a id="widget-training" class="widget" href="/training">
                 	<span class="logo" style="background-image: url(/images/widgets/addons-provider.png)"></span>
-					<span class="title">Formation</span>
-					<span class="content">Formation Agile, Scrum, TDD.</span></a>
+					<span class="title"><%= t('trainingagile') %></span>
+					<span class="content"><%= t('servicestrainingagileT1') %></span></a>
                 <a id="widget-development" class="widget" href="/development">
                 	<span class="logo" style="background-image: url(/images/widgets/levelup.png)"></span>
-					<span class="title">Développement</span>
-					<span class="content">La réalisation, phase incontournable de vos projets.</span></a>
+					<span class="title"><%= t('developmentagile') %></span>
+					<span class="content"><%= t('servicesdevelopmentagileT1') %></span></a>
             </div>
         </div>
     </div>

@@ -1,21 +1,32 @@
 <div id="wrapper">
     <div id="main">
-<h1>Contactez-nous</h1>
+<h1><%= t('contacteus') %></h1>
 
 
-<h2>Information générale</h2>
-info@drivedestinyx.com 
+<h2><%= t('generalinformation') %>: </h2> info@drivedestinyx.com 
+<h2><%= t('traininginformation') %>:  </h2>training@drivedestinyx.com 
+<h2><%= t('locations') %>: </h2>
+<table>
+	<tr>
+		<td style="width: 250px;">
+			+1 212-537-55 55 55<br>
+Rabat-<%= t('morocco') %>
 
-formation@drivedestinyx.com 
-
-Rabat-Maroc
-
-Casablanca-Maroc
-
+		</td>
+		<td style="width: 250px;">
+			+1 212-537-55 55 55<br>
+Casablanca-<%= t('morocco') %>
+		</td>
+		<td style="width: 250px;">
+			+1 33-82 55 55 55<br>
 Toulouse-France
-
-Montréal Qc-Canada
-
+		</td>
+		<td style="width: 250px;">
+			+1 514-822-5555<br>
+<%= t('montreal') %>-Qc-Canada
+		</td>
+	</tr>
+</table>
 </div>
 </div>
 

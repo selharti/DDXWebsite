@@ -3,14 +3,13 @@
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
     <head>
         <link href='/images/faviconddx.ico' rel='icon' type='image/x-icon' />
-
         <meta content='width=1044' name='viewport' />
         <link href='/stylesheets/header.css' media='all' rel='stylesheet' type='text/css' />
         <link href='/stylesheets/footer.css' media='all' rel='stylesheet' type='text/css' />
         <script type="text/javascript">
             var _sf_startpt = (new Date()).getTime()
         </script>
-        <title>Driv Destiny eXperience - Consulting / Audit / Management Projet  | Formation </title>
+        <title><%= t('title') %></title>
         <meta content='text/html; charset=UTF-8' http-equiv='content-type' />
         <link media="all" rel="stylesheet" type="text/css" href="/stylesheets/home.css" />
         <link href="/stylesheets/footer.css" media="screen" rel="stylesheet" type="text/css" />
@@ -28,54 +27,70 @@
         <!-- javascript -->
         <script src='/javascripts/jquery-1.4.min.js' type='text/javascript'>
         </script>
-     <!--
-	    <script src='/javascripts/footer-pull-news.js' type='text/javascript'>
+        <!--
+        <script src='/javascripts/footer-pull-news.js' type='text/javascript'>
         </script>
         <script src='/javascripts/recent.js' type='text/javascript'>
         </script>
         <script src='/javascripts/webtrends.js' type='text/javascript'>
         </script>
-		-->
+        -->
     </head>
     <body class="home">
         <div id="DDX-header">
-            <div>
+            <div id="DDX-logodiv">
                 <h5 id="DDX-logo"><a href="/">DDX</a></h5>
             </div>
             <div id="DDX-header-separation">
             </div>
             <div id="DDX-header-nav">
-                <ul id="DDX-account-nav">
+                <div style="float:none; height:100px">
+                    <!--
+                    <ul id="DDX-account-nav">
                     <div id="DDX-account-nav-logged_in" style="display: none;">
-                        <li>
-                            <a href="/mytrainings" id="DDX-header-link-myapps">Mes formations</a>
-                        </li>
-                        <li>
-                            <a href="/myaccount" id="DDX-header-link-account">Mon compte</a>
-                        </li>
-                        <li>
-                            <a href="/logout" id="DDX-header-link-logout">Se déconnecter</a>
-                        </li>
+                    <li>
+                    <a href="/mytrainings" id="DDX-header-link-myapps"><%= t('mytraining') %></a>
+                    </li>
+                    <li>
+                    <a href="/myaccount" id="DDX-header-link-account"><%= t('myaccount') %></a>
+                    </li>
+                    <li>
+                    <a href="/logout" id="DDX-header-link-logout"><%= t('disconnecte') %></a>
+                    </li>
                     </div>
                     <li id="DDX-header-link-login">
-                        <a href="/login">Se connecter</a>
+                    <a href="/login"><%= t('connecte') %></a>
                     </li>
-                </ul>
-                <ul id='DDX-section-nav'>
-                    <li>
-                        <a href="company" id="DDX-header-link-how">Compagnie</a>
-                    </li>
-                    <li>
-                        <a href="service" id="DDX-header-link-pricing">Services</a>
-                    </li>
-                    <li>
-                        <a href="contact" id="DDX-header-link-addons">Contact</a>
-                    </li>
-                    <li>
+                    </ul>
+                    -->
+                    <ul id='DDX-section-nav'>
+                        <li>
+                            <a href="company" id="DDX-header-link-how"><%= t('company') %></a>
+                        </li>
+                        <li>
+                            <a href="service" id="DDX-header-link-pricing"><%= t('services') %></a>
+                        </li>
+                        <li>
+                            <a href="contact" id="DDX-header-link-addons"><%= t('contact') %></a>
+                        </li>
+                        <!-- <li>
                         <a href="learn" id="DDX-header-link-docs">Apprendre</a>
-                    </li>
-                    
+                        </li>
+                        -->
+                    </ul>
+                    <div id="DDX-header-separation">
+                    </div>
+                </div>
+                <!-- 				<ul id='DDX-header-laguage-nav' >
+                <li>  -->
+                <div id="DDX-header-laguage-nav" align="center" style="padding: 4px 2px 6px; -webkit-border-radius: 7px;
+-moz-border-radius:7px 7px 7px 7px; background-color: #231D40; width: 88px; position: relative; float: right; display: block; height: 13px; margin-top: 0px; margin-left: 0px; margin-right: 14px; vertical-align: middle;">
+                    <%= link_to("English", :locale => :en) unless I18n.locale == :en or I18n.locale == "en" %>
+                    <%= link_to ("Français", :locale => :fr) unless I18n.locale == :fr or I18n.locale == "fr" %>
+                </div>
+                <!--					</li>
                 </ul>
+                -->
             </div>
         </div>
         <script type="text/javascript">
@@ -84,41 +99,39 @@
                 document.getElementById('DDX-header-link-login').style.display = 'none';
             }
         </script>
-		                <%= yield :layout %>
+        <%= yield :layout %>
         <div id='DDX-footer'>
             <div class='container'>
                 <h2 class='hidden'>Sitemap</h2>
-
                 <div class='nav sixth' id='DDX-footer-company'>
                     <h3>Drive Destiny eXperience</h3>
                     <ul>
                         <li>
-                            <a href='/company' id='DDX-footer-link-about'>A propos</a>
+                            <a href='/company' id='DDX-footer-link-about'><%= t('about') %></a>
                         </li>
                         <li>
-                            <a href='/jobs' id='DDX-footer-link-jobs'>Emploi</a>
+                            <a href='/jobs' id='DDX-footer-link-jobs'><%= t('jobs') %></a>
                         </li>
-<!--                        <li>
-                            <a href='http://legal.DDX.com/' id='DDX-footer-link-legal'>Legal</a>
+                        <!--                        <li>
+                        <a href='http://legal.DDX.com/' id='DDX-footer-link-legal'>Legal</a>
                         </li>
                         <li>
-                            <a href='http://legal.DDX.com/privacy' id='DDX-footer-link-privacy'>Privacy Policy</a>
+                        <a href='http://legal.DDX.com/privacy' id='DDX-footer-link-privacy'>Privacy Policy</a>
                         </li>
--->						
+                        -->
                     </ul>
                 </div>
-
                 <div class='nav sixth' id='DDX-footer-business'>
                     <h3>Nos services</h3>
                     <ul>
                         <li>
-                            <a href='/training' class='DDX-footer-link'>Formation</a>
+                            <a href='/training' class='DDX-footer-link'><%= t('training') %></a>
                         </li>
                         <li>
-                            <a href='/coaching' id='DDX-footer-link'>Coaching Agile</a>
+                            <a href='/coaching' id='DDX-footer-link'><%= t('coachingagile') %></a>
                         </li>
                         <li>
-                            <a href='/dvelopment' id='DDX-footer-link'>Développement</a>
+                            <a href='/dvelopment' id='DDX-footer-link'><%= t('development') %></a>
                         </li>
                     </ul>
                 </div>
@@ -142,12 +155,11 @@
                     <h3>Resources</h3>
                     <ul>
                         <li>
-                            <a href='http://selharti.wordpress.com' id='DDX-footer-link-contact'>Blog</a>
+                            <a href='http://selharti.wordpress.com' id='DDX-footer-link-contact'><%= t('blog') %></a>
                         </li>
                         <li>
-                            <a href='http://agilemaroc.org/' id='DDX-footer-link'>Communoté</a>
+                            <a href='http://agilemaroc.org/' id='DDX-footer-link'><%= t('community') %></a>
                         </li>
-
                     </ul>
                 </div>
                 <div class='third' id='DDX-footer-pull'>

@@ -33,110 +33,54 @@
                 </script>
                 <ul class="accordion">
                 	<!-- Discover -->
-                	<li id="discover-slide">
-                        <span class="opener"></span>
+                	<li id="_discover-slide">
+                        <span class="opener"><%= t('homediscovre') %></span>
                         <div class="slide" style="display: none">
                             <div class="content">
-                                <h2>Découvrir l'Agilité et tout ce qu'elle peut faire pour la réalisation de vos projets informatiques. En fait Elle va un peut plus loin t vous propose un changement de metaltée de votre organisation et de sa relation avc se partenaires.</h2>
-                                <span id="code-create">Drive Destiny eXperience propose des séances gratuites d’initiation à l’Agilité.
-Voir le calendrier. 
-</span>
+                                <h2><%= t('homediscoverT1') %></h2>
+                                	<%= t('homediscoverT2') %> 
                             </div>
                         </div>
                     </li>
                 	<!-- learn -->
-                    <li id="learn-slide">
-                        <span class="opener">Create: instant deploymentxxxxxxxxxx</span>
+                    <li id="_learn-slide">
+                        <span class="opener"><%= t('homelearn') %></span>
                         <div class="slide" style="display: none">
                             <div class="content">
-                                <h2>Drive Destiny eXperience vous propose des formations sur différent techniques et technologiesnologie.</h2>
-                                <span id="code-create">Drive Destiny eXperience offre des formations Agiles. 
-Scrum Master niveau 1, niveau 2 et Certification.
-Product Owner
-TDD
-Gestion du changement 
-Stratégie Agile</span>
+                                <h2><%= t('homelearnT1') %></h2>
+                                	<%= t('homelearnT2') %>
                             </div>
                         </div>
                     </li>
 					<!-- Practice -->
-                    <li id="practice-slide">
-                        <span class="opener"></span>
+                    <li id="_practice-slide">
+                        <span class="opener"><%= t('homepractice') %></span>
                         <div class="slide" style="display: none">
                             <div class="content">
-                                <h2>Il faut l'essayer pour le croire, et c'est exactement ce que nous vous proposons: des ateliers de pratique</h2>
-                                <span id="code-create">
-Drive Destiny eXperience vous offre des ateliers d’immersion pour passer à la pratique et vivre une expérience réelle, réduite dans le temps, qui couvre toutes les étapes d’un projet Agile. Les participants participent à la réalisation d’un mini projet, et prennent par la pratique les différents rôles et étape de l’approche Scrum.
-Préalable : avoir suivie une formation Scrum. 
-
-									</span>
+                                <h2><%= t('homepracticeT1') %></h2>
+									<%= t('homepracticeT2') %>
                             </div>
                         </div>
                     </li>
  					<!-- Return -->
-                   <li id="return-slide">
-                        <span class="opener active"></span>
+                   <li id="_return-slide">
+                        <span class="opener active"><%= t('homereturn') %></span>
                         <div class="slide slide-bottom">
                             <div class="content">
-                                <h2>Il est temps de mettre toute cette expérsise en exploitation et commencer le rentabliser. Nous vous propose un accompagnement pour assurr la réussit de votre démarche.</h2>
-                                <span id="code-create">Drive Destiny eXperience offre un service d’accompagnement pour les entreprises qui désirent virage Agile. Notre objectif principal est de vous aider à trouver et définir l’approche d’intégration Agile qui s’adapte le mieux à votre contexte et de vous aider à la mettre en œuvre. « Nous ne vous donnerons pas de poisson mais nous vous montrerons comment le pêcher !».</span>
+                                <h2><%= t('homereturnT1') %></h2>
+                                <%= t('homereturnT2') %>
                             </div>
                         </div>
                     </li>
  					<!-- Return -->
                        </ul>
-                <div class="rightpane">
-                    Drive Destiny eXperience est une société de service en technologie de l'information et gestion de projet.
-					Nous offrons des services en formation, accompagnement agile et de dévloppement sur différentes tehnologies qui repondent le mieux à vos besoins et votre budget.
-					Notre orientation Agile nous offre la possibilté de répondre au besoins de notre clientèle efficacement, rapidement et à moindre coût.
+                <div class="rightpane"><%= t('homeT1') %>
                 </div>
             </div>
 			
 			<div align="center" valign="center" >
 				<img style="padding:5px" src="/images/CSM_small_tbg.png"/> 
 				<img style="padding:5px" src="/images/CSP_small_tbg.png"/>   
-				<img style="padding:9px" src="/images/AMSponsor-fr.png"/>
+				<img style="padding:9px" src="/images/<%= t('homeamsponsorImg') %>"/>
 			</div>
-								 
-   <!--         <div id="featured">
-                <div id="widgets">
-                    <a class="widget" id="widget-1" href="#"></a>
-                    <a class="widget" id="widget-2" href="#"></a>
-                    <style type="text/css">                    
-                        #featured.color a.widget#widget-levelup .title {
-                            color: #a0dafe
-                        }
-                        
-                        a.widget#widget-levelup:hover {
-                            border: 1px solid #2F3334 394942;
-                            background: #242235; /* old browsers */
-                            background: -moz-linear-gradient(top, #2C3249 0%, #1F2433 100%); /* firefox */
-                                                        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2C3249), color-stop(100%,#1F2433)); /* webkit */
-                                                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C3249', endColorstr='#1F2433',GradientType=0 ); /* ie */
-                                                	    }
-                                                	    a.widget#widget-levelup:hover .content { color:#a0dafe; }
-                                                	  
-                                            
-                    </style>
-                    <a id="widget-levelup" class="widget" href="http://blog.DDX.com/archives/2010/12/8/the_next_level/"><span class="logo" style="background-image: url(/images/widgets/levelup.png)"></span><span class="title">The Next Level</span><span class="content">DDX is focussing on openness and trust by joining forces with salesforce.com.</span></a>
-                    <style type="text/css">                    
-                        #featured.color a.widget#widget-provider .title {
-                            color: #87C8DE
-                        }
-                        
-                        a.widget#widget-provider:hover {
-                            border: 1px solid #283538;
-                            background: #2c2b35; /* old browsers */
-                            background: -moz-linear-gradient(top, #283538 0%, #20272a 100%); /* firefox */
-                                                        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#283538), color-stop(100%,#20272a)); /* webkit */
-                                                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283538', endColorstr='#20272a',GradientType=0 ); /* ie */
-                                                	    }
-                                                	    a.widget#widget-provider:hover .content {color:#87C8DE}
-                                                	  
-                                            
-                    </style>
-                    <a id="widget-provider" class="widget" href="http://provider.DDX.com"><span class="logo" style="background-image: url(/images/widgets/addons-provider.png)"></span><span class="title">Build an Add-on</span><span class="content">Build a DDX add-on for your cloud service with our new program and API.</span></a>
-                </div>
-				
-            </div>-->
-        </div>
+      </div>

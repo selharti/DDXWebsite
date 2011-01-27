@@ -24,6 +24,11 @@ vertical-align:baseline;
 background-image:url("/images/headerbginv.jpg");
 display:block;
 }
+#DDX-header-laguage
+{
+	width: 80px;
+	
+}
 
 #DDX-header div, #DDX-header span, #DDX-header object, #DDX-header iframe, #DDX-header h1, #DDX-header h2, #DDX-header h3, #DDX-header h4, #DDX-header h5, #DDX-header h6, #DDX-header p, #DDX-header pre, #DDX-header a, #DDX-header abbr, #DDX-header acronym, #DDX-header address, #DDX-header code, #DDX-header del, #DDX-header dfn, #DDX-header em, #DDX-header img, #DDX-header dl, #DDX-header dt, #DDX-header dd, #DDX-header ol, #DDX-header ul, #DDX-header li, #DDX-header fieldset, #DDX-header form, #DDX-header input, #DDX-header label, #DDX-header legend, #DDX-header caption, #DDX-header tbody, #DDX-header tfoot, #DDX-header thead, #DDX-header tr {
 border:0 none;
@@ -105,47 +110,45 @@ float:right;
 list-style-type:none;
 margin-top:30px;
 overflow:hidden;
-padding:10px;
-}
-#DDX-header ul#DDX-account-nav, #DDX-header ul#DDX-section-nav {
- -webkit-border-radius: 7px;
+padding:10px; 
+-webkit-border-radius: 7px;
 -moz-border-radius:7px 7px 7px 7px;
 background-color:#231D40;
 display:block;
+margin-right:11px;
 }
+
 #DDX-header ul#DDX-account-nav li, #DDX-header ul#DDX-section-nav li {
 float:left;
 margin-left:10px;
-}
-#DDX-header ul#DDX-account-nav li:first-child, #DDX-header ul#DDX-section-nav li:first-child {
-margin-left:0;
-}
-#DDX-header ul#DDX-account-nav li, #DDX-header ul#DDX-section-nav li {
 border-left:2px solid #494573;
 font-size:16px;
 padding-left:10px;
 }
 #DDX-header ul#DDX-account-nav li:first-child, #DDX-header ul#DDX-section-nav li:first-child {
+margin-left:0;
 border-left:medium none;
 padding-left:0;
 }
+
+
 #DDX-header ul#DDX-account-nav li#DDX-header-link-login, #DDX-header ul#DDX-section-nav li#DDX-header-link-login {
 border:medium none;
 margin-left:0;
 padding-left:0;
 }
-#DDX-header ul#DDX-account-nav li a, #DDX-header ul#DDX-section-nav li a {
+#DDX-header ul#DDX-account-nav li a, #DDX-header ul#DDX-section-nav li a, #DDX-header-laguage-nav a {
 color:#CB0000;
 font-weight:bold;
 text-decoration:none;
 }
-#DDX-header ul#DDX-account-nav li a:hover, #DDX-header ul#DDX-section-nav li a:hover {
+#DDX-header ul#DDX-account-nav li a:hover, #DDX-header ul#DDX-section-nav li a:hover, #DDX-header-laguage-nav a:hover {
 color:white;
 }
-#DDX-header ul#DDX-account-nav li a.active, #DDX-header ul#DDX-section-nav li a.active {
+#DDX-header ul#DDX-account-nav li a.active, #DDX-header ul#DDX-section-nav li a.active, #DDX-header-laguage-nav a.active {
 color:#BFF740;
 }
-#DDX-header ul#DDX-account-nav li a.active:hover, #DDX-header ul#DDX-section-nav li a.active:hover {
+#DDX-header ul#DDX-account-nav li a.active:hover, #DDX-header ul#DDX-section-nav li a.active:hover, #DDX-header-laguage-nav a.active:hover {
 color:#BFF740;
 }
 #DDX-header ul#DDX-account-nav {
@@ -176,3 +179,9 @@ color:#BFF740;
 	float:left;
 	min-height:7px; 
 }
+
+#DDX-header-laguage-nav{
+	height: 20px;
+
+	
+} 
